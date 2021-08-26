@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <conio.h>
 #include <bits/stdc++.h>
 #include <graphics.h>
 
@@ -26,7 +25,7 @@ int main () {
 		cin >> x1 >> y1 >> x2 >> y2;
 		dx = x2 - x1;
 		dy = y2 - y1;
-		putpixel(x1, y1, RED);
+		putpixel(x1, y1, GREEN);
 		p = (2 * dy) - dx;
 		while (x1 < x2) {
 
@@ -42,12 +41,9 @@ int main () {
 			}
 
 			x1 += 1;
-			putpixel(x1, y1, RED);			cout << x1 << " " << y1 << "\n";
+			putpixel(x1, y1, GREEN);
+			cout << x1 << " " << y1 << "\n";
 		}
-
-// #ifndef ExtTime
-// 		cout << "Execution Time: " << 1000 * clock() / CLOCKS_PER_SEC << " ms\n";
-// #endif
 
 	}
 	getch();
