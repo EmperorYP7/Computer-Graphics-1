@@ -1,6 +1,7 @@
 //DDA Line Drawing Algorithm
 
 #include <stdio.h>
+#include <conio.h>
 #include <bits/stdc++.h>
 #include <graphics.h>
 
@@ -39,5 +40,5 @@ int main () {
 
 	}
 
-	getch();
+	_getch();
 }
