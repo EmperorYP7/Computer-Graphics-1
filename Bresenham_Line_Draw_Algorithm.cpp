@@ -1,6 +1,7 @@
 // Bresenham's Line Drawing Algorithm
 
 #include <stdio.h>
+#include <conio.h>
 #include <bits/stdc++.h>
 #include <graphics.h>
 
@@ -37,5 +38,5 @@ int main () {
         putpixel(x1, y1, GREEN);
         cout << x1 << " " << y1 << "\n";
     }
-    getch();
+    _getch();
 }
