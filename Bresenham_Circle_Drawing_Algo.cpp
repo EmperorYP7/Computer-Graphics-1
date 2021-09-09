@@ -1,6 +1,7 @@
 // Bresenham's Circle Drawing Algorithm
 
 #include <stdio.h>
+#include <conio.h>
 #include <bits/stdc++.h>
 #include <graphics.h>
 
@@ -48,6 +49,6 @@ int main () {
         cout << "{" << x1 << ", " << y1 << "}\n";
     }
 
-    getch();
+    _getch();
 
 }
