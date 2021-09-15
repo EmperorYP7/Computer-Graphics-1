@@ -20,7 +20,8 @@ int main () {
 	cin >> a;
 	cout << "Enter length of semi-minor axis (b): ";
 	cin >> b;
-
+	line(xc - a, yc, xc + a, yc);
+	line(xc, yc - b, xc, yc + b);
 	x = 0, y = b;
 	fx = 0;
 	fy = a * a;
